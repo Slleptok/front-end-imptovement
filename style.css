@@ -13,7 +13,23 @@ body{
 
 a{
     color: black;
+    text-decoration: none;
 }
+
+a:hover{
+    text-decoration: line-through;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: grey;
+}
+
+
+
 h1{
     color: red;
 }
@@ -48,3 +64,8 @@ h1{
     border-radius: 30px;  
     border-right-color: blue;  
 } */
+
+
+
+
+
