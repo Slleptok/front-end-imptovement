@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
 
 body{
     background-color: white;
@@ -6,8 +12,9 @@ body{
 
     font-size: 16;
     font-weight: normal;
-    font-family: "Roboto", 'sans-serif';
-    font: normal 16px "Roboto", 'sans-serif';
+    font-family: 'Nabla', 'sans-serif';
+    /* font-family: "Roboto", 'sans-serif';
+    font: normal 16px "Roboto", 'sans-serif'; */
     /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
 }
 
@@ -40,6 +47,10 @@ h1{
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
+.info{
+    margin-bottom: 20px;
+}
+
 .info p{
     color: gray;
     margin: 0;
@@ -67,5 +78,50 @@ h1{
 
 
 
+.bg-yellow{
+    background: yellow;
+}
 
+.bg-green{
+    background: green;
+}
 
+.bg-red{
+    background: red;
+}
+
+.card{
+    padding: 15px 20px ;
+    
+    margin-bottom:  20px;
+    border-radius: 20px;
+
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list{
+    padding: 0 20px;
+    list-style: none;
+}
+
+.list li{
+    color: #86898f;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td{
+    margin-bottom: 10px;
+}
+
+.temp .temp td{
+    color: #86898f;
+}
